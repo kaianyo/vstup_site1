@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ШІ в мистецтві - CS×ART</title>
+  <meta name="description" content="Нейронні мережі, що створюють картини, музику та поезію. DALL-E, Midjourney та майбутнє творчості.">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">CS<span class="logo-accent">×</span>ART</a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Головна</a>
+        <a href="generative-art.html" class="nav-link">Генеративне</a>
+        <a href="ai-art.html" class="nav-link active">ШІ-арт</a>
+        <a href="history.html" class="nav-link">Історія</a>
+        <a href="about.html" class="nav-link">Про автора</a>
+        <a href="sources.html" class="nav-link">Джерела</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="page-hero">
+      <div class="page-hero-bg">
+        <img src="images/ai-art.jpg" alt="ШІ в мистецтві">
+      </div>
+      <div class="page-hero-overlay"></div>
+      <div class="container page-hero-content">
+        <div class="page-badge page-badge-accent">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/></svg>
+          <span>Штучний інтелект</span>
+        </div>
+        <h1><span class="text-gradient-warm">ШІ</span> як новий художник</h1>
+        <p class="page-hero-description">
+          Нейронні мережі навчились малювати, писати музику та створювати поезію. Досліджуємо революцію, яка змінює розуміння творчості.
+        </p>
+        <div class="hero-buttons">
+          <a href="history.html" class="btn btn-accent">
+            Історія розвитку
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How AI Creates Art -->
+    <section class="content-section content-section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Як ШІ створює мистецтво?</h2>
+        </div>
+
+        <div class="content-grid">
+          <div class="content-image">
+            <img src="images/ai-creation-process.jpg" alt="Процес створення ШІ-арту">
+          </div>
+          <div class="step-cards">
+            <div class="step-card">
+              <div class="step-card-content">
+                <div class="step-number">01</div>
+                <div>
+                  <h3>Навчання</h3>
+                  <p>Нейромережа аналізує мільйони зображень, текстів або музичних творів</p>
+                </div>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-card-content">
+                <div class="step-number">02</div>
+                <div>
+                  <h3>Запит</h3>
+                  <p>Користувач описує бажаний результат текстом або зображенням</p>
+                </div>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-card-content">
+                <div class="step-number">03</div>
+                <div>
+                  <h3>Генерація</h3>
+                  <p>Модель створює унікальний твір на основі вивченого</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-box" style="margin-top: 2rem; max-width: 56rem; margin-left: auto; margin-right: auto;">
+          <div class="info-box-header">
+            <svg class="info-box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+            <div>
+              <h4>Ключові технології</h4>
+              <p><strong>Дифузійні моделі</strong> (Stable Diffusion, DALL-E) працюють як "шумоподавлення" — навчаються перетворювати шум у зображення. <strong>Трансформери</strong> (GPT, Claude) передбачають наступний елемент послідовності, створюючи текст чи код.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Tools -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Популярні <span class="text-gradient-primary">ШІ-інструменти</span></h2>
+          <p>Інструменти, що дозволяють кожному стати творцем</p>
+        </div>
+
+        <div class="cards-grid cards-grid-4">
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+              </div>
+              <span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: var(--secondary); border-radius: 9999px;">Зображення</span>
+            </div>
+            <h3>DALL-E 3</h3>
+            <p style="font-size: 0.75rem; color: var(--muted-foreground); margin-bottom: 0.5rem;">OpenAI</p>
+            <p>Генерує зображення за текстовим описом з високою точністю та деталізацією.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h0"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg>
+              </div>
+              <span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: var(--secondary); border-radius: 9999px;">Зображення</span>
+            </div>
+            <h3>Midjourney</h3>
+            <p style="font-size: 0.75rem; color: var(--muted-foreground); margin-bottom: 0.5rem;">Midjourney Inc.</p>
+            <p>Створює художні зображення з унікальним стилем, популярний серед дизайнерів.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-icon info-card-icon-accent">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              </div>
+              <span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: var(--secondary); border-radius: 9999px;">Музика</span>
+            </div>
+            <h3>Suno AI</h3>
+            <p style="font-size: 0.75rem; color: var(--muted-foreground); margin-bottom: 0.5rem;">Suno</p>
+            <p>Генерує музичні композиції з вокалом та інструментами за текстовим запитом.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+              </div>
+              <span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: var(--secondary); border-radius: 9999px;">Текст</span>
+            </div>
+            <h3>ChatGPT</h3>
+            <p style="font-size: 0.75rem; color: var(--muted-foreground); margin-bottom: 0.5rem;">OpenAI</p>
+            <p>Створює поезію, сценарії, історії та інший творчий текстовий контент.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Famous AI Artworks -->
+    <section class="content-section content-section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Знакові <span class="text-gradient-warm">ШІ-твори</span></h2>
+        </div>
+
+        <div class="cards-grid cards-grid-2">
+          <div class="image-card">
+            <div class="image-card-image">
+              <img src="images/ai-famous-artwork.jpg" alt="Портрет Едмона де Беламі">
+            </div>
+            <div class="image-card-content">
+              <p style="color: var(--accent); font-size: 0.875rem; margin-bottom: 1rem;">
+                <svg style="width: 1rem; height: 1rem; display: inline; vertical-align: middle; margin-right: 0.25rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                $432,500
+              </p>
+              <h3>"Портрет Едмона де Беламі"</h3>
+              <p>Перший ШІ-твір, проданий на аукціоні Christie's у 2018 році. Створений колективом Obvious за допомогою GAN.</p>
+              <p style="color: var(--primary); font-size: 0.875rem; margin-top: 1rem;">Подія стала переломним моментом у визнанні ШІ-мистецтва арт-ринком.</p>
+            </div>
+          </div>
+
+          <div class="info-card" style="height: 100%;">
+            <div style="aspect-ratio: 16/9; background: linear-gradient(135deg, hsla(174, 72%, 56%, 0.2), hsla(12, 80%, 65%, 0.2)); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <div style="text-align: center;">
+                <svg style="width: 4rem; height: 4rem; color: hsla(174, 72%, 56%, 0.5); margin-bottom: 1rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/></svg>
+                <p style="color: var(--primary); font-weight: 500;">DeepDream Visualization</p>
+              </div>
+            </div>
+            <p style="color: var(--primary); font-size: 0.875rem; margin-bottom: 1rem;">
+              <svg style="width: 1rem; height: 1rem; display: inline; vertical-align: middle; margin-right: 0.25rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/></svg>
+              Google DeepMind
+            </p>
+            <h3>"DeepDream"</h3>
+            <p>Візуалізація "снів" нейронної мережі, створена Google у 2015 році. Програма посилює патерни, які бачить у зображеннях.</p>
+            <p style="color: var(--primary); font-size: 0.875rem; margin-top: 1rem;">Відкрив нову еру дослідження внутрішнього світу нейромереж.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ethics -->
+    <section class="content-section">
+      <div class="container">
+        <div style="max-width: 48rem; margin: 0 auto;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 2rem;">
+            <svg style="width: 2rem; height: 2rem; color: var(--accent);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+            <h2>Етичні питання</h2>
+          </div>
+          <p style="color: var(--muted-foreground); margin-bottom: 2rem;">Швидкий розвиток ШІ-мистецтва ставить важливі питання перед суспільством:</p>
+
+          <div class="question-cards">
+            <div class="question-card">
+              <div class="question-card-content">
+                <span class="question-mark">?</span>
+                <p>Чи є твір, створений ШІ, справжнім мистецтвом?</p>
+              </div>
+            </div>
+            <div class="question-card">
+              <div class="question-card-content">
+                <span class="question-mark">?</span>
+                <p>Кому належить авторське право на ШІ-генерований контент?</p>
+              </div>
+            </div>
+            <div class="question-card">
+              <div class="question-card-content">
+                <span class="question-mark">?</span>
+                <p>Як захистити стиль живих художників від копіювання?</p>
+              </div>
+            </div>
+            <div class="question-card">
+              <div class="question-card-content">
+                <span class="question-mark">?</span>
+                <p>Чи замінить ШІ людських художників?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-box info-box-accent" style="margin-top: 2rem;">
+            <p><strong>Важливо розуміти:</strong> ШІ — це інструмент, а не заміна творчості. Як фотоапарат не замінив живопис, так і ШІ відкриває нові можливості, не знецінюючи традиційні форми мистецтва.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="content-section content-section-alt">
+      <div class="container" style="text-align: center;">
+        <h2>Як все починалось?</h2>
+        <p style="color: var(--muted-foreground); max-width: 32rem; margin: 0 auto 2rem;">
+          Дізнайтесь про історію цифрового мистецтва від 1960-х до сьогодення
+        </p>
+        <a href="history.html" class="btn btn-hero">
+          Історія розвитку
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">CS<span class="logo-accent">×</span>ART</a>
+          <p>Досліджуйте перетин комп'ютерних наук та мистецтва.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Навігація</h4>
+          <a href="index.html">Головна</a>
+          <a href="generative-art.html">Генеративне мистецтво</a>
+          <a href="ai-art.html">ШІ в мистецтві</a>
+          <a href="history.html">Історія</a>
+        </div>
+        <div class="footer-social">
+          <h4>Контакти</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </a>
+            <a href="mailto:example@email.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 CS×ART. Створено з ❤️ для дослідження цифрового мистецтва.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
